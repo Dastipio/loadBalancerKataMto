@@ -5,7 +5,7 @@ public class Server {
 	private static final double MAXIMUM_LOAD = 100.0d;
 
 	public double currentLoadPecentage;
-	private int capacity;
+	public int capacity;
 
 	public Server(int capacity) {
 		this.capacity = capacity;
